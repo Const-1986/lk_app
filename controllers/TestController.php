@@ -264,7 +264,7 @@ class TestController extends AppController
 
       $result = $result->result[0];
 
-      //$result_str = ' Идентификатор улицы:' . $result->id . ' Тип улицы:' . $result->type . ' Название улицы:' . $result->name . ' Почтовый индекс:' . $result->zip . PHP_EOL ;
+   
 
       $result_str =  $result->id . ';' . $result->typeShort . ';' . $result->name . ';' . $result->zip . ';' . $result->okato . ';' . $result->ifnsfl . ';' .  PHP_EOL;
 

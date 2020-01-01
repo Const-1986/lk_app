@@ -14,7 +14,7 @@ $app->get('/personal-account/questionnaire', function ($request, $response) {
 
 $app->post('/personal-account/questionnaire', function ($request, $response) {
 
-  debug($_POST);
+
 
   $this->view->render($response, '/personal-account/questionnaire.php', []);
 });
