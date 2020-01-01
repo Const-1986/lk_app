@@ -1,0 +1,19 @@
+{
+    "name": "1/energo_lk",
+    "type": "project",
+    "require": {
+        "cartalyst/sentinel": "2.0.18",
+        "illuminate/database": "~5.0",
+        "illuminate/events": "~5.0",
+        "slim/php-view": "^2.2",
+        "symfony/http-foundation": "^3.4",
+        "phpmailer/phpmailer": "^6.1",
+        "slim/slim": "3.9"
+    },
+    "autoload":{
+        "psr-4":{
+            "": ""
+        }
+    }
+
+}
